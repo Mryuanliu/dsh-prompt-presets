@@ -1,0 +1,9 @@
+# dsh-toolbox bundle patch: mounts the plugin row for static installs
+# (dsh plugin --profile web add link:/path/to/dsh-toolbox).
+# The row name resolves to this package: the host half is the package main
+# (bundle/host.js - template/event routes + agent status listener) and the
+# browser half is the ./client export (bundle/client.js), picked up by the
+# client module system via the dsh.client declaration in package.json.
+- insert:
+    - id: dsh-toolbox
+      name: dsh-toolbox
