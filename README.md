@@ -10,7 +10,7 @@ DeepSeek Harness (DSH) Web GUI 的小工具插件：右下角悬浮「⚡」打�
 
 ## 功能
 
-- **提示词模板库**：内置 6 个常用模板（代码审查 / 写单元测试 / 解释代码 / 重构 / 排查报错 / Commit 信息），支持添加、删除、一键填入输入框。
+- **提示词模板库**：内置 6 个常用模板（代码审查 / 写单元测试 / 解释代码 / 重构 / 排查报错 / Commit 信息），支持添加、删除、一键填入输入框，快速填充提示词。
 - **任务完成提醒**：宿主半区订阅 `agent/status`（`running → idle`）与 `agent/error`，完成/出错事件写入内存环形缓冲，前端每 2.5s 轮询 `/dsh-toolbox/events` 弹 toast；宿主同时调用 `osascript`（macOS）/ `notify-send`（Linux）发系统通知。
 
 ## 安装
