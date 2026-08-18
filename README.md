@@ -5,7 +5,7 @@ DeepSeek Harness (DSH) Web GUI 的小工具插件：右下角悬浮「⚡」打�
 ## 界面预览
 
 <p align="center">
-  <img src="image.png" alt="dsh-prompt-presets 界面截图：右下角 ⚡ 悬浮按钮，打开后显示提示词模板面板" width="700">
+  <img src="image-new.png" alt="dsh-prompt-presets 界面截图：右下角 ⚡ 悬浮按钮，打开后显示提示词模板面板" width="700">
 </p>
 
 ## 功能
