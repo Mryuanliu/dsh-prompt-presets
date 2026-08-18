@@ -2,6 +2,7 @@
 
 DeepSeek Harness (DSH) Web GUI 的小工具插件：右下角悬浮「⚡」打开提示词模板库（一键填入输入框、可增删模板）；agent 任务完成/出错时页面右上角弹 toast，同时发 macOS / Linux 系统原生通知。不修改任何 DSH 源码，卸载即完全还原。
 
+
 ## 界面预览
 
 <p align="center">
