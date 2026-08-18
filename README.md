@@ -16,7 +16,7 @@ DeepSeek Harness (DSH) Web GUI 的小工具插件：右下角悬浮「⚡」打�
 ## 安装
 
 ```sh
-dsh plugin --profile web add link:/Users/apple/Desktop/dash-web/dsh-prompt-presets
+dsh plugin --profile web add github:Mryuanliu/dsh-prompt-presets
 dsh web   # 重启 DSH 生效
 ```
 
